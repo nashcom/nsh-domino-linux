@@ -7,7 +7,8 @@
 Container build system for Domino images
 
 [Page](https://opensource.hcltechsw.com/domino-container/)
-[GitHub](https://github.com/HCL-TECH-SOFTWARE/domino-container/)       |
+[GitHub](https://github.com/HCL-TECH-SOFTWARE/domino-container/)
+
 
 ## Domino Certificate Manager
 
@@ -16,6 +17,7 @@ Extensions and examples for Domino CertMgr
 [Page](https://opensource.hcltechsw.com/domino-cert-manager/)
 [GitHub](https://github.com/HCL-TECH-SOFTWARE/domino-cert-manager)
 
+
 ## HCL Domino Backup
 
 Integrations and tools for Domino Backup & Restore
@@ -23,9 +25,11 @@ Integrations and tools for Domino Backup & Restore
 [Page](https://opensource.hcltechsw.com/domino-backup/)
 [GitHub](https://github.com/HCL-TECH-SOFTWARE/domino-backup)
 
+
 ## HCL Domino One Touch Setup
 
-Documentation and How-Tos for OTS
+Documentation and HowTo for OTS
+
 
 ## HCL Domino Linux
 
@@ -37,7 +41,7 @@ Domino on Linux distributions and best practices
 
 ## Domino Start Script
 
-Domino on Linux reference start script project providing the Domino systemd start script and releated resources.
+Domino on Linux reference start script project providing the Domino systemd start script and related resources.
 
 [GitHub](https://github.com/nashcom/domino-startscript)
 [Page](https://nashcom.github.io/domino-startscript/)
@@ -57,7 +61,7 @@ A download helper to download software on Linux for using it directly or integra
 [Page](https://nashcom.github.io/domino-startscript/domdownload/)
 
 
-### Container Environment Convenience Script 
+### Container Environment Convenience Script
 
 Simple install script to install Docker + clone the Domino start script and Domino Container Project
 
@@ -80,7 +84,7 @@ Domino Borg backup integration working hand in hand with Domino Backup
 
 ## Domino Grafana and Prometheus
 
-Resources around Domino on Grafana. Provides a statistics exported for Domino as a server task which provides a *.prom file ready to use for [Prometheus Node Exporter](https://github.com/prometheus/node_exporter)
+Resources around Domino on Grafana.
+Provides a statistics exported for Domino as a server task which provides a *.prom file ready to use for [Prometheus Node Exporter](https://github.com/prometheus/node_exporter)
 
 [GitHub](https://github.com/nashcom/domino-grafana)
-

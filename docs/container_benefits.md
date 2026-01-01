@@ -84,7 +84,7 @@ Containers reduce attack surface:
 - Easy to run Domino without root
 - Controlled network exposure
 
-** Security improvements come from isolation, not from Domino changes.**
+**Security improvements come from isolation, not from Domino changes.**
 
 
 ## 6. Easier Automation and CI/CD Integration
