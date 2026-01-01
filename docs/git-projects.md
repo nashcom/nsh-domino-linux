@@ -1,90 +1,36 @@
-
 # Domino related GitHub Projects & Sub Projects
 
+## Top-Level Projects
 
-## HCL Domino Container
+| Project | Description | Links |
+|:--------|:------------|:------|
+| **HCL Domino Container** | Container build system for Domino images | [Page](https://opensource.hcltechsw.com/domino-container/) · [GitHub](https://github.com/HCL-TECH-SOFTWARE/domino-container/) |
+| **Domino Certificate Manager** | Extensions and examples for Domino CertMgr | [Page](https://opensource.hcltechsw.com/domino-cert-manager/) · [GitHub](https://github.com/HCL-TECH-SOFTWARE/domino-cert-manager) |
+| **HCL Domino Backup** | Integrations and tools for Domino Backup & Restore | [Page](https://opensource.hcltechsw.com/domino-backup/) · [GitHub](https://github.com/HCL-TECH-SOFTWARE/domino-backup) |
+| **HCL Domino One Touch Setup** | Documentation and HowTo for One Touch Setup (OTS) | — |
+| **HCL Domino Linux** | Domino on Linux distributions and best practices | [Page](https://opensource.hcltechsw.com/domino-linux/) · [GitHub](https://github.com/HCL-TECH-SOFTWARE/domino-linux/) |
+| **Domino Start Script** | Reference systemd start script and related resources for Domino on Linux | [Page](https://nashcom.github.io/domino-startscript/) · [GitHub](https://github.com/nashcom/domino-startscript) |
+| **Domino Borg Backup Integration** | Borg backup integration working together with Domino Backup | [GitHub](https://github.com/nashcom/domino-borg) |
+| **Domino Grafana & Prometheus** | Grafana dashboards and Prometheus exporter for Domino server statistics | [GitHub](https://github.com/nashcom/domino-grafana) |
 
-Container build system for Domino images
+---
 
-[Page](https://opensource.hcltechsw.com/domino-container/)
-[GitHub](https://github.com/HCL-TECH-SOFTWARE/domino-container/)
+## Domino Start Script – Sub Projects
 
+- **dominoctl**
+  Domino container control script to run and manage Domino on Docker and Podman  
+  [Page](https://nashcom.github.io/domino-startscript/dominoctl/)
 
-## Domino Certificate Manager
+- **domdownload**
+  MyHCLSoftware download helper for Linux, usable standalone or integrated into the Domino container build environment  
+  [Page](https://nashcom.github.io/domino-startscript/domdownload/)
 
-Extensions and examples for Domino CertMgr
+- **Container Environment Convenience Script**  
+  Simple installation script to install Docker and clone the Domino Start Script and Domino Container projects  
+  [Page](https://nashcom.github.io/domino-startscript/install_container_env/)
 
-[Page](https://opensource.hcltechsw.com/domino-cert-manager/)
-[GitHub](https://github.com/HCL-TECH-SOFTWARE/domino-cert-manager)
+## Other useful Linux tools
 
-
-## HCL Domino Backup
-
-Integrations and tools for Domino Backup & Restore
-
-[Page](https://opensource.hcltechsw.com/domino-backup/)
-[GitHub](https://github.com/HCL-TECH-SOFTWARE/domino-backup)
-
-
-## HCL Domino One Touch Setup
-
-Documentation and HowTo for OTS
-
-
-## HCL Domino Linux
-
-Domino on Linux distributions and best practices
-
-[Page](https://opensource.hcltechsw.com/domino-linux/)
-[GitHub](https://github.com/HCL-TECH-SOFTWARE/domino-linux/)
-
-
-## Domino Start Script
-
-Domino on Linux reference start script project providing the Domino systemd start script and related resources.
-
-[GitHub](https://github.com/nashcom/domino-startscript)
-[Page](https://nashcom.github.io/domino-startscript/)
-
-
-### dominoctl - Domino container control
-
-A start script to run and manage Domino on Docker and Podman
-
-[Page](https://nashcom.github.io/domino-startscript/dominoctl/)
-
-
-### domdownload - Domino MyHCLSoftware download tool for Linux
-
-A download helper to download software on Linux for using it directly or integrated into the Domino container build environment.
-
-[Page](https://nashcom.github.io/domino-startscript/domdownload/)
-
-
-### Container Environment Convenience Script
-
-Simple install script to install Docker + clone the Domino start script and Domino Container Project
-
-[Page](https://nashcom.github.io/domino-startscript/install_container_env/)
-
-
-### nshmailx
-
-A simple to use mail command-line tool without any external dependencies (can replace standard mailx).
-
-[GitHub](https://github.com/nashcom/nshmailx)
-
-
-## Domino Borg Backup Integration
-
-Domino Borg backup integration working hand in hand with Domino Backup
-
-[GitHub](https://github.com/nashcom/domino-borg)
-
-
-## Domino Grafana and Prometheus
-
-Resources around Domino on Grafana.
-Provides a statistics exported for Domino as a server task which provides a *.prom file ready to use for [Prometheus Node Exporter](https://github.com/prometheus/node_exporter)
-
-[GitHub](https://github.com/nashcom/domino-grafana)
+- **nshmailx**
+  Lightweight command-line mail tool without external dependencies (mailx replacement)  
+  [GitHub](https://github.com/nashcom/nshmailx)
