@@ -1,0 +1,43 @@
+#cloud-config
+autoinstall:
+  version: 1
+
+  locale: en_US.UTF-8
+  timezone: Europe/Berlin
+  keyboard:
+    layout: de
+    variant: nodeadkeys
+
+  identity:
+    hostname: nsh-dls01
+    username: notes
+    # openssl passwd -6 'YourTempPassword'
+    password: "$6$j9BDcMJCfO3rELIG$aaLynb/0sfrtB8E92Uv/xlD2Vu6ySzATok8xGBaQAWGhQA3lFPFio4tcsUi/KuwHqj1UWYnuUJTsqAEV09Aa41"
+
+  ssh:
+    install-server: true
+    allow-pw: false
+    authorized-keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIObbxmqSXJo4iL5hmwlLvaKtJ0yAZs1LfqjDBWM6qGIw lab@nsh-wsl.nashcom.lab
+
+  network:
+    version: 2
+    ethernets:
+      default:
+        match:
+          name: "en*"
+        dhcp4: true
+
+  storage:
+    layout:
+      name: lvm
+
+  updates: security
+  apt:
+    preserve_sources_list: false
+
+  packages:
+    - openssh-server
+    - vim
+    - htop
+

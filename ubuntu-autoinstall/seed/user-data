@@ -1,0 +1,75 @@
+#cloud-config
+autoinstall:
+  version: 1
+
+  locale: en_US.UTF-8
+  timezone: Europe/Berlin
+  keyboard:
+    layout: de
+    variant: nodeadkeys
+
+  identity:
+    hostname: nsh-dls01
+    username: notes
+    password: "$6$j9BDcMJCfO3rELIG$aaLynb/0sfrtB8E92Uv/xlD2Vu6ySzATok8xGBaQAWGhQA3lFPFio4tcsUi/KuwHqj1UWYnuUJTsqAEV09Aa41"
+
+  ssh:
+    install-server: true
+    allow-pw: false
+    authorized-keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIObbxmqSXJo4iL5hmwlLvaKtJ0yAZs1LfqjDBWM6qGIw lab@nsh-wsl.nashcom.lab
+
+  network:
+    version: 2
+    ethernets:
+      default:
+        match:
+          name: "en*"
+        dhcp4: no
+        addresses:
+          - 192.168.96.58/24
+        routes:
+          - to: default
+            via: 192.168.96.98
+
+        nameservers:
+          addresses:
+            - 1.1.1.1
+            - 1.0.0.1
+
+  storage:
+    layout:
+      name: zfs
+      sizing-policy: all
+      match:
+        size: largest
+
+  # could be also be only but we want all: security
+  updates: security
+  apt:
+    preserve_sources_list: false
+
+  source:
+    id: ubuntu-server-minimal
+
+  packages:
+    - openssh-server
+    - vim
+
+  user-data:
+    disable_root: true
+    package_update: false
+    package_upgrade: false
+
+    write_files:
+      - path: /etc/ssh/sshd_config.d/99-hardening.conf
+        content: |
+          PasswordAuthentication no
+          ChallengeResponseAuthentication no
+          UsePAM yes
+
+    runcmd:
+      - find /etc/nsh > /tmp/etc-nsh.txt
+      - systemctl restart ssh
+      - zfs set atime=off rpool
+      - zfs set recordsize=32K rpool
