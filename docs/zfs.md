@@ -63,3 +63,11 @@ DAOS would be a candidate for de-duplication if certain conditions are met:
 
 - Disable updating last accessed
 
+
+#Presentation
+
+[Here](https://papers.freebsd.org/2020/linux.conf.au/paeps_The_ZFS_filesystem.files/paeps_The_ZFS_filesystem.pdf) is a recommended presentation as a good introduction (even it is for OpenBSD).
+The session is also available on [YouTube](https://www.youtube.com/watch?v=Hjpqa_kjCOI)
+
+It explains the main concepts of ZFS in detail.
+
