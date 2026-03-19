@@ -58,7 +58,7 @@ They are either used by servers or admins & developers.
 
 ## Monitoring
 
-Monitoring is it's own kind of domain providing services for IT, mainly but also auditors and corporate security.
+Monitoring is its own kind of domain providing services for IT, mainly but also auditors and corporate security.
 
 | Service Name | Description                            |
 |:-------------|:---------------------------------------|

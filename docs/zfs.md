@@ -3,11 +3,11 @@
 
 [OpenZFS](https://openzfs.github.io/openzfs-docs/)
 
-OpenZFS is a file-system class of it's own.
+OpenZFS is a file-system class of its own.
 It comes with a couple of very interesting features, which makes it the perfect fit for small and larger environments.
 For larger environments it needs special tuning and some higher amount of RAM to be effective. 
 
-ZFS does not only is a file-system. It has an integrated volume manager and RAID support.
+ZFS is not only a file-system. It has an integrated volume manager and RAID support.
 Additional disks can be added at any time and it is a great fit for local NVMe disks.
 
 
@@ -15,22 +15,23 @@ Additional disks can be added at any time and it is a great fit for local NVMe d
 
 - copy-on-write (CoW), check-summing & data integrity, including self-healing
 - integrated volume manager
-- build-in RAID support
+- built-in RAID support
 - adjustable record size per dataset
 - compression
 - de-duplication
 - snapshots & clones
 - snapshot send/receive (efficient remote replication)
 - dataset quotas & reservations
-- build-in NFS support
-- native encryption- special vdevs for metadata/small files (NVMe acceleration)
+- built-in NFS support
+- native encryption
+- special vdevs for metadata/small files (NVMe acceleration)
 - advanced adaptive caching (ARC) and optional SSD-based L2ARC
 - ZIL/SLOG for low-latency synchronous writes (important for Domino transaction logging)
 
 
 ## Special considerations for Domino
 
-# Record Size
+## Record Size
 
 The default record size on ZFS is 128K.
 Domino (like other databases) uses smaller block writes.
@@ -42,13 +43,13 @@ A record size which fits well for Domino would be 16k for **translog** and NSF/N
 For DAOS the default 128k size fits well. 
 
 
-# Compression
+## Compression
 
-Block level compression is enabled by default and is well fitted for all Domino data.
-The overhead for compression reduces the I/O rate.
+Block level compression should be enabled per dataset and fits well for all Domino data.
+Compression reduces the effective amount of data written, lowering I/O with minimal CPU overhead.
 
 
-# De-Duplication
+## De-Duplication
 
 De-duplication requires additional RAM which increases with higher storage volumes and should be implemented with care.
 
@@ -59,14 +60,14 @@ DAOS would be a candidate for de-duplication if certain conditions are met:
   It would be a good fit if more than one DAOS volume would be pointed to the same storage in different sub-directories (e.g. ZFS over NFS)
 
 
-# Attributes
+## Attributes
 
 - Disable updating last accessed
 
 
-#Presentation
+## Presentation
 
-[Here](https://papers.freebsd.org/2020/linux.conf.au/paeps_The_ZFS_filesystem.files/paeps_The_ZFS_filesystem.pdf) is a recommended presentation as a good introduction (even it is for OpenBSD).
+[Here](https://papers.freebsd.org/2020/linux.conf.au/paeps_The_ZFS_filesystem.files/paeps_The_ZFS_filesystem.pdf) is a recommended presentation as a good introduction (even though it comes from the FreeBSD community).
 The session is also available on [YouTube](https://www.youtube.com/watch?v=Hjpqa_kjCOI)
 
 It explains the main concepts of ZFS in detail.

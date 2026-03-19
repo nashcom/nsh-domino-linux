@@ -21,7 +21,7 @@ Containers are also a good choice for all Domino add-on products such as:
 Containers are also a good choice for **adding custom add-ons** for a standardized deployment
 Even if you pick a native installation, the container install tooling is also available for native Linux installs.
 
-The container project supports both installation modes even it was initially only intended for container based installs.
+The container project supports both installation modes even though it was initially only intended for container based installs.
 
 ## 3. Downloading Domino WebKits
 
@@ -53,13 +53,13 @@ domino setup
 domino start
 ```
 
-## 4.2 Build and run the Domino container image
+## 4.3 Build and run the Domino container image
 
 Building and running container images involves multiple steps.
 But there is tooling available to simplify to setup a container build and run-time environment, build the image, configure and run a container.
 
 
-### 4.2.1 Install a container build environment
+### 4.3.1 Install a container build environment
 
 The Domino Start Script provides a convenience script to setup a container build and run-time environment.
 
@@ -78,7 +78,7 @@ curl -sL https://raw.githubusercontent.com/nashcom/domino-startscript/main/insta
 ```
 
 
-### 4.2.2 Build the container image
+### 4.3.2 Build the container image
 
 Once the [Domino Container Image](https://opensource.hcltechsw.com/domino-container/) GitHub repository is cloned the build script can be used to build a Domino container image.
 
@@ -90,7 +90,7 @@ cd /local/github/domino-container
 The build script tries to automatically download Domino WebKits from My HCLSoftware portal as part of the build process.
 
 
-### 4.2.3 Run the container image
+### 4.3.3 Run the container image
 
 Once the image is created, the container can be started levering the [Domino Container Control](https://nashcom.github.io/domino-startscript/dominoctl/) script.
 

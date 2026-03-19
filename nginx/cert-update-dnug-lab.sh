@@ -29,7 +29,7 @@
 #
 # Deploys and updates certificates from remote server via SNI request querying certificates.
 # The current certificate file is compared with the remote certificate.
-# In case the certificate is matching they key and is updated  the certificate is updated and NGINX is reloaded.
+# In case the certificate matches the key and is updated, the certificate is deployed and NGINX is reloaded.
 #
 # Also supports import of keys and certificates from a local mount
 #
@@ -42,7 +42,7 @@ date
 echo ---------------------------------
 echo
 
-# Hostname key and cerficate file
+# Hostname key and certificate file
 HOST_NAME=lab.dnug.eu
 SERVER_KEY=star-dnug.key
 SERVER_CERT=star-dnug.pem
@@ -63,7 +63,7 @@ TMP_UPD_PEM_FILE=/tmp/cert_update.pem
 
 # Adopt this function for your environment
 
-notifiy_applications()
+notify_applications()
 {
   # Add all application commands needed to make application aware of new certificate
 
@@ -201,13 +201,13 @@ cert_update()
   fi
 
   if [ -z "$CURRENT_PEM" ]; then
-    log_error "No curren PEM specified"
+    log_error "No current PEM specified"
     remove_file "$NEW_PEM"
     return 1
   fi
 
   if [ -z "$CURRENT_KEY" ]; then
-    log_error "No new current key specified"
+    log_error "No current key specified"
     remove_file "$NEW_PEM"
     return 1
   fi
@@ -273,7 +273,7 @@ cert_update()
 
   log_debug "Copying updated certificate [$NEW_PEM] -> [$CURRENT_PEM]"
 
-  notifiy_applications
+  notify_applications
 
   return 0
 }
