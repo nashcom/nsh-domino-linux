@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Connecting via SSH
 nav_order: 12
+parent: Home
 ---
 
 # Connecting to a Linux System via SSH

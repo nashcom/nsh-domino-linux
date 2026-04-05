@@ -1,6 +1,5 @@
 ---
-layout: default
-title: "Domino on Linux Community Guide"
+title: Home
 nav_order: 1
 ---
 

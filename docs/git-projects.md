@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Tools and Related Projects
 nav_order: 6
+parent: Home
 ---
 
 # Domino related GitHub Projects & Sub Projects

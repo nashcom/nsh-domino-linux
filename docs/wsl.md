@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Windows Subsystem for Linux (WSL 2)
 nav_order: 13
+parent: Home
 ---
 
 ## WSL 2 Windows Subsystem for Linux

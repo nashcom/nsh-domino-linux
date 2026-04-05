@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Standard Naming for Services
 nav_order: 9
+parent: Home
 ---
 
 # Standard Naming for Domino related services

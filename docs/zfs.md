@@ -1,7 +1,7 @@
 ---
-layout: default
 title: ZFS for Domino
 nav_order: 14
+parent: Home
 ---
 
 # ZFS for Domino

@@ -1,7 +1,7 @@
 ---
-layout: default
 title: How to Run Domino on Linux
 nav_order: 2
+parent: Home
 ---
 
 # How to Run Domino on Linux
