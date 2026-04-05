@@ -1,3 +1,9 @@
+---
+layout: default
+title: Picking the Right Linux Distribution
+nav_order: 3
+---
+
 # Picking the right Linux Distribution
 
 ## Introduction

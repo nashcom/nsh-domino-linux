@@ -1,4 +1,8 @@
-
+---
+layout: default
+title: Connecting via SSH
+nav_order: 12
+---
 
 # Connecting to a Linux System via SSH
 

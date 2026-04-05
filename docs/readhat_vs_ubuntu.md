@@ -1,4 +1,10 @@
-\# Ubuntu Differences (Domino-Focused)
+---
+layout: default
+title: Red Hat vs Ubuntu for Domino
+nav_order: 11
+---
+
+# Ubuntu Differences (Domino-Focused)
 
 
 

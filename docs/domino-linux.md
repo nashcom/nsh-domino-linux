@@ -1,3 +1,9 @@
+---
+layout: default
+title: How to Run Domino on Linux
+nav_order: 2
+---
+
 # How to Run Domino on Linux
 
 Domino can be installed in multiple ways on Linux.

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Tools and Related Projects
+nav_order: 6
+---
+
 # Domino related GitHub Projects & Sub Projects
 
 ## Top-Level Projects

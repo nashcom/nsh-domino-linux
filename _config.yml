@@ -1,0 +1,24 @@
+title: "Domino on Linux"
+description: "Community guide: Practical, proven approaches to running HCL Domino on Linux. Complements HCL's official Domino Linux documentation."
+baseurl: "/domino-linux"
+url: "https://nashcom.github.io"
+
+# Jekyll settings
+theme: jekyll-theme-minimal
+markdown: kramdown
+
+# Enable search (if using GitHub Pages)
+search_enabled: false
+
+# Navigation
+nav_order_start: 0
+
+# Files to include in the build
+include:
+  - _redirects
+
+# Collections for better organization
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:name/

@@ -1,3 +1,8 @@
+---
+layout: default
+title: How to Get Started with Domino on Linux
+nav_order: 4
+---
 
 # How to get started Domino on Linux
 

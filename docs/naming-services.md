@@ -1,4 +1,8 @@
-
+---
+layout: default
+title: Standard Naming for Services
+nav_order: 9
+---
 
 # Standard Naming for Domino related services
 

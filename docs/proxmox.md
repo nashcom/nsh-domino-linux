@@ -1,3 +1,9 @@
+---
+layout: default
+title: Domino on Proxmox
+nav_order: 10
+---
+
 # Domino for Linux on Proxmox
 
 [Proxmox](https://www.proxmox.com) is a modern and very flexible virtualization environment that supports both full virtual machines and lightweight Linux containers.
