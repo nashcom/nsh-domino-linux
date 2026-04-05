@@ -1,7 +1,8 @@
 ---
+layout: default
 title: Benefits of Running HCL Domino in Containers
-nav_order: 5
-parent: Home
+nav_order: 1
+parent: Runtimes
 ---
 
 # Benefits of Running HCL Domino in Containers

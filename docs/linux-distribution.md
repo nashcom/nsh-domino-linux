@@ -1,7 +1,8 @@
 ---
+layout: default
 title: Picking the Right Linux Distribution
-nav_order: 3
-parent: Home
+nav_order: 1
+parent: Platforms
 ---
 
 # Picking the right Linux Distribution

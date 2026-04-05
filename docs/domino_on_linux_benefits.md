@@ -1,7 +1,8 @@
 ---
+layout: default
 title: Why Linux Is the Better Fit for HCL Domino
-nav_order: 7
-parent: Home
+nav_order: 2
+parent: Overview
 ---
 
 # Why Linux Is the Better Fit for HCL Domino

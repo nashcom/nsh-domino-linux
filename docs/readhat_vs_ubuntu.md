@@ -1,7 +1,8 @@
 ---
+layout: default
 title: Red Hat vs Ubuntu for Domino
-nav_order: 11
-parent: Home
+nav_order: 2
+parent: Platforms
 ---
 
 # Ubuntu Differences (Domino-Focused)

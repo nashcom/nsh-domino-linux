@@ -1,7 +1,8 @@
 ---
+layout: default
 title: Connecting via SSH
-nav_order: 12
-parent: Home
+nav_order: 2
+parent: Installation & Setup
 ---
 
 # Connecting to a Linux System via SSH

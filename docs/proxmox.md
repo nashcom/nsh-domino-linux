@@ -1,7 +1,8 @@
 ---
+layout: default
 title: Domino on Proxmox
-nav_order: 10
-parent: Home
+nav_order: 3
+parent: Platforms
 ---
 
 # Domino for Linux on Proxmox

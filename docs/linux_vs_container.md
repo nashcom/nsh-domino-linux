@@ -1,7 +1,8 @@
 ---
+layout: default
 title: Native vs. Containerized Deployment
-nav_order: 8
-parent: Home
+nav_order: 2
+parent: Runtimes
 ---
 
 # HCL Domino on Linux native Installation vs. Containerized Deployment

@@ -1,7 +1,8 @@
 ---
+layout: default
 title: How to Get Started with Domino on Linux
-nav_order: 4
-parent: Home
+nav_order: 1
+parent: Installation & Setup
 ---
 
 # How to get started Domino on Linux

@@ -1,7 +1,8 @@
 ---
+layout: default
 title: Standard Naming for Services
-nav_order: 9
-parent: Home
+nav_order: 3
+parent: Installation & Setup
 ---
 
 # Standard Naming for Domino related services

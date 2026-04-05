@@ -1,7 +1,8 @@
 ---
+layout: default
 title: ZFS for Domino
-nav_order: 14
-parent: Home
+nav_order: 4
+parent: Installation & Setup
 ---
 
 # ZFS for Domino
