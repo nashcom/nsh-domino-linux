@@ -3,7 +3,7 @@ title: "Domino on Linux"
 description: Community guide - Practical, proven approaches to running HCL Domino on Linux
 
 url: "https://nashcom.github.io"
-baseurl: "/domino-linux"
+baseurl: "/nsh-domino-linux"
 
 permalink: pretty
 
