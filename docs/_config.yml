@@ -4,7 +4,7 @@ remote_theme: pmarsceill/just-the-docs
 title: "Domino on Linux"
 description: Community guide - Practical, proven approaches to running HCL Domino on Linux
 version: 1.0
-logo: "/assets/images/svg/Domino.svg"
+#logo: "/assets/images/svg/Domino.svg"
 git_url: "https://github.com/nashcom/domino-linux"
 baseurl: "/domino-linux"
 permalink: pretty
@@ -85,7 +85,7 @@ gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub"
 # the github URL for your repo
 gh_edit_repository: "https://github.com/nashcom/domino-linux"
-gh_edit_branch: "master" # the branch that your docs is served from
+gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
