@@ -3,11 +3,11 @@ title: "Domino on Linux"
 description: Community guide - Practical, proven approaches to running HCL Domino on Linux
 
 url: "https://nashcom.github.io"
-baseurl: "/nsh-domino-linux"
+baseurl: "/domino-linux"
 
 permalink: pretty
 
-remote_theme: just-the-docs/just-the-docs
+remote_theme: pmarsceill/just-the-docs
 
 plugins:
   - jekyll-remote-theme
@@ -38,7 +38,7 @@ footer_content: "Domino on Linux"
 # GitHub edit links
 gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/nashcom/nsh-domino-linux"
+gh_edit_repository: "https://github.com/nashcom/domino-linux"
 gh_edit_branch: "main"
 gh_edit_source: docs
 gh_edit_view_mode: "tree"

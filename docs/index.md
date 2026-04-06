@@ -24,11 +24,11 @@ This is a **community-maintained guide** that complements [HCL's official Domino
 
 ## Quick Navigation
 
-- [How to Run Domino on Linux](docs/domino-linux.md) — Start here for deployment options
-- [Choose a Linux Distribution](docs/linux-distribution.md) — Red Hat vs Ubuntu comparison
-- [Installation Guide](docs/howto_install_domino.md) — Step-by-step setup
-- [Container Benefits](docs/container_benefits.md) — Why containers matter
-- [Tools & Related Projects](docs/git-projects.md) — Ecosystem and integrations
+- [How to Run Domino on Linux](domino-linux.md) — Start here for deployment options
+- [Choose a Linux Distribution](linux-distribution.md) — Red Hat vs Ubuntu comparison
+- [Installation Guide](howto_install_domino.md) — Step-by-step setup
+- [Container Benefits](container_benefits.md) — Why containers matter
+- [Tools & Related Projects](git-projects.md) — Ecosystem and integrations
 
 ## Philosophy
 
@@ -36,10 +36,10 @@ Rather than duplicating existing documentation, this project references and inte
 
 ## Getting Started
 
-1. [Understand your deployment options](docs/domino-linux.md)
-2. [Choose your Linux distribution](docs/linux-distribution.md)
-3. [Follow the installation guide](docs/howto_install_domino.md)
-4. [Explore advanced topics](docs/) as needed
+1. [Understand your deployment options](domino-linux.md)
+2. [Choose your Linux distribution](linux-distribution.md)
+3. [Follow the installation guide](howto_install_domino.md)
+4. [Explore advanced topics](00-overview.md) as needed
 
 ---
 
